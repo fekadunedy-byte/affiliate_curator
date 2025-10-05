@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Brand - High Ticket Affiliate Products</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+    body { 
+        font-family: 'Poppins', sans-serif; 
+        margin:0; 
+        padding:0; 
+        background:#f4f4f9; 
+        color:#333; 
+    }
+
+    /* Smooth scrolling */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Header and Nav */
+    header {
+        position: relative;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        background: linear-gradient(135deg, #1e3a8a, #2563eb);
+        padding: 15px 20px;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+    nav a.active, nav a:hover {
+        background: rgba(255,255,255,0.2);
+    }
+
+    header .header-content {
+        background: linear-gradient(135deg, #1e3a8a, #2563eb);
+        color:white;
+        text-align:center;
+        padding:120px 20px 60px 20px;
+    }
+    header h1 { margin:0; font-size:3em; }
+    header p { font-size:1.2em; margin-top:15px; }
+
+    section { padding:50px 20px; }
+    section h2 { 
+        text-align:center; 
+        font-size:2em; 
+        margin-bottom:30px; 
+        color:#1e3a8a; 
+    }
+
+    .container { 
+        display:grid; 
+        grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); 
+        gap:25px; 
+    }
+
+    .card { 
+        background:white; 
+        border-radius:12px; 
+        box-shadow:0 4px 10px rgba(0,0,0,0.1); 
+        padding:25px; 
+        text-align:center; 
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    }
+    .card:hover { 
+        transform: translateY(-8px); 
+        box-shadow:0 6px 16px rgba(0,0,0,0.15); 
+    }
+    .card h3 { margin-top:0; color:#222; font-size:1.4em; }
+    .card p { font-size:1em; margin:15px 0; color:#555; }
+
+    .cta-button { 
+        background: linear-gradient(135deg, #ff6600, #ff8533); 
+        color:white; 
+        padding:12px 24px; 
+        text-decoration:none; 
+        border-radius:8px; 
+        display:inline-block; 
+        font-weight:600; 
+        transition: background 0.3s ease; 
+    }
+    .cta-button:hover { 
+        background: linear-gradient(135deg, #e65c00, #ff751a); 
+    }
+
+    /* About/Profile */
+    .about { 
+        background:#fff; 
+        border-radius:12px; 
+        max-width:800px; 
+        margin:0 auto; 
+        padding:40px; 
+        box-shadow:0 4px 12px rgba(0,0,0,0.1); 
+        text-align:center; 
+    }
+    .about img { 
+        width:120px; 
+        height:120px; 
+        border-radius:50%; 
+        margin-bottom:20px; 
+        border:4px solid #1e3a8a; 
+    }
+    .about h3 { margin:0; font-size:1.8em; color:#1e3a8a; }
+    .about p { font-size:1em; margin-top:15px; color:#555; line-height:1.6; }
+
+    /* Section background tints */
+    .health { background:#e6f7f5; }
+    .digital { background:#f0f5ff; }
+    .travel { background:#fff5e6; }
+    .tech { background:#f9f0ff; }
+    .finance { background:#f5f9e6; }
+
+    /* Footer */
+    footer { 
+        background: linear-gradient(135deg, #2563eb, #1e3a8a); 
+        color:white; 
+        text-align:center; 
+        padding:25px; 
+        margin-top:40px; 
+    }
+    footer p { margin:5px 0; font-size:0.9em; }
+</style>
+</head>
+<body>
+
+<header>
+    <nav id="navbar">
+        <img src="images/logo.png" alt="Logo">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#health" class="nav-link">Health</a>
+        <a href="#digital" class="nav-link">Digital</a>
+        <a href="#travel" class="nav-link">Travel</a>
+        <a href="#tech" class="nav-link">Technology</a>
+        <a href="#finance" class="nav-link">Finance</a>
+    </nav>
+    <div class="header-content">
+        <img src="images/banner.jpg" alt="Banner">
+        <h1>Your Brand</h1>
+        <p>Discover Top High-Ticket Affiliate Programs Across Popular Niches</p>
+    </div>
+</header>
+
+<section id="about">
+    <div class="about">
+        <img src="images/profile.jpg" alt="Your Profile Photo">
+        <h3>About Me</h3>
+        <p>Hello and welcome! I’m [Your Name/Brand], passionate about sharing the best high-ticket affiliate opportunities in health, digital tools, travel, technology, and finance. Replace this section with your own story or business profile.</p>
+    </div>
+</section>
+
+<section id="health" class="health">
+    <h2>Health & Wellness</h2>
+    <div class="container">
+        <div class="card">
+            <h3>Organifi Supplements</h3>
+            <p>Premium superfood powders with high commissions.</p>
+            <a href="https://your-affiliate-link.com/organifi" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>PaleoHacks Meal Plans</h3>
+            <p>Popular health & diet plans with solid payouts.</p>
+            <a href="https://your-affiliate-link.com/paleohacks" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>Peloton</h3>
+            <p>High-ticket fitness equipment & subscriptions.</p>
+            <a href="https://your-affiliate-link.com/peloton" class="cta-button" target="_blank">Get Started</a>
+        </div>
+    </div>
+</section>
+
+<section id="digital" class="digital">
+    <h2>Digital Products</h2>
+    <div class="container">
+        <div class="card">
+            <h3>ClickFunnels 2.0</h3>
+            <p>All-in-one funnel builder with $200+ per signup.</p>
+            <a href="https://your-affiliate-link.com/clickfunnels" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>Kinsta Hosting</h3>
+            <p>Premium hosting with up to $500 per referral.</p>
+            <a href="https://your-affiliate-link.com/kinsta" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>Teachable</h3>
+            <p>Sell courses online and earn recurring revenue.</p>
+            <a href="https://your-affiliate-link.com/teachable" class="cta-button" target="_blank">Get Started</a>
+        </div>
+    </div>
+</section>
+
+<section id="travel" class="travel">
+    <h2>Travel</h2>
+    <div class="container">
+        <div class="card">
+            <h3>TripAdvisor Experiences</h3>
+            <p>Earn up to 50% on tours & travel bookings.</p>
+            <a href="https://your-affiliate-link.com/tripadvisor" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>Booking.com</h3>
+            <p>Global hotel booking affiliate program.</p>
+            <a href="https://your-affiliate-link.com/booking" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>World Nomads Insurance</h3>
+            <p>Trusted travel insurance with high payouts.</p>
+            <a href="https://your-affiliate-link.com/worldnomads" class="cta-button" target="_blank">Get Started</a>
+        </div>
+    </div>
+</section>
+
+<section id="tech" class="tech">
+    <h2>Technology</h2>
+    <div class="container">
+        <div class="card">
+            <h3>Bluehost Hosting</h3>
+            <p>Earn $65+ per signup promoting hosting services.</p>
+            <a href="https://your-affiliate-link.com/bluehost" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>SEMrush</h3>
+            <p>SEO tools with recurring commissions.</p>
+            <a href="https://your-affiliate-link.com/semrush" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>HubSpot</h3>
+            <p>CRM & marketing software with $1,000+ per referral.</p>
+            <a href="https://your-affiliate-link.com/hubspot" class="cta-button" target="_blank">Get Started</a>
+        </div>
+    </div>
+</section>
+
+<section id="finance" class="finance">
+    <h2>Finance</h2>
+    <div class="container">
+        <div class="card">
+            <h3>Personal Capital</h3>
+            <p>Financial planning platform with $100+ payouts.</p>
+            <a href="https://your-affiliate-link.com/personalcapital" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>Fundrise</h3>
+            <p>Real estate investing platform with big commissions.</p>
+            <a href="https://your-affiliate-link.com/fundrise" class="cta-button" target="_blank">Get Started</a>
+        </div>
+        <div class="card">
+            <h3>Betterment</h3>
+            <p>Smart investing platform with recurring earnings.</p>
+            <a href="https://your-affiliate-link.com/betterment" class="cta-button" target="_blank">Get Started</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Disclosure: I may earn a commission if you purchase through these links — at no extra cost to you.</p>
+    <p>&copy; 2025 Your Brand. All rights reserved.</p>
+</footer>
+
+<script>
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-link");
+
+window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) {
+            current = section.getAttribute("id");
+        }
+    });
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+        if(link.getAttribute("href") === "#" + current){
+            link.classList.add("active");
+        }
+    });
+});
+</script>
+
+</body>
+</html>
